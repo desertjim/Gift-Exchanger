@@ -1,0 +1,21 @@
+
+Forward:
+
+gift_exchanger.py is a simple script designed to make gift exchanges fast.
+Appologies as it was written rather quickly and could use improvement.
+
+
+Directions:
+
+1. Edit gift_exchanger.py:
+Set people to contain a list of people participating in the gift exchange
+	people = ["janice", "henry", "james", "jeff", "ramsey", "drew", "kim"]
+Set dont_match to be a list of tuples of people not participating in the 
+the gift exchange
+	dont_match=[("janice", "henry"), ("jen","kim")]
+2. Run the program:
+python gift_exchanger.py 
+jeff -> janice -> james -> henry -> ramsey -> drew -> kim -> jeff
+In this example Jeff is buying for Janice and Janice is buying for James...
+
+
